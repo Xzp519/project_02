@@ -1,0 +1,179 @@
+/* 初始化设置 */
+ul  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h3,
+h6,
+p  {
+    margin: 0;
+}
+
+/* header区域 */
+
+header  {
+    height: 112px;
+}
+
+.logo   {
+    line-height: 112px;
+}
+
+.nav    ul  li  {
+    float: left;
+    line-height: 112px;
+}
+
+.nav    ul  li  a   {
+    font-size: 16px;
+}
+
+.nav    ul  li  .color_one {
+    color: #000000  !important;
+    font-weight: 700;
+}
+
+.nav    ul  li  a[class^=color] {
+    color: #333333;
+}
+
+.nav    ul  li:nth-child(n+2)  {
+    padding-left: 50px;
+}
+
+@media  screen and  (max-width:750px)   {
+    header  {
+        margin: 20px auto;
+        padding-left: 30px;
+        height: 56px;
+    }
+
+    .nav    ul  li  {
+        line-height: 56px;
+    }
+
+    .nav    ul  li:nth-child(n+2)  {
+        padding-left: 15px;
+    }
+}
+
+/* 轮播图区域 */
+.banner {
+    height: 578px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+@media  screen  and (max-width:750px)   {
+    .banner {
+        height: 251px;
+    }
+}
+
+/* 课程服务板块 */
+.product_services   {
+    margin-top: 95px;
+}
+
+.title  {
+    height: 69px;
+    text-align: center;
+}
+
+.title  h3  {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.product_services   ul  li  {
+    margin-top: 66px;
+    width: 380px;
+    height: 350px;
+    text-align: center;
+}
+
+.product_services   ul  li  a {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.product_services   ul  li  h2  {
+    height: 42px;
+    margin-bottom: 8px;
+}
+
+.product_services   ul  li  .content {
+    display: block;
+    height: 22px;
+    font-size: 16px;
+    color: #B4B4B4;
+}
+
+.product_services   ul  li  .line   {
+    display: block;
+    border-bottom: 1px solid   #ededef;
+    padding-top: 24px;
+}
+
+.product_services   ul  li  .intro  {
+    margin-top: 32px;
+    height: 32px;
+    font-size: 16px;
+}
+
+.product_services   ul  li:nth-child(2) .intro  {
+    padding-bottom: 10px;
+}
+
+@media  screen  and (max-width:750px)   {
+    .product_services   {
+        margin-top: 32px;
+    }
+
+    .title  {
+        height: 54px;
+    }
+
+    .product_services   ul  li  {
+        margin: 64px 50px 0;
+        width: 315px;
+        height: 270px;
+        padding: 0 13px;
+    }
+
+    .product_services   ul  li  h2  {
+        margin-top: 16px;
+    }
+
+    .product_services   ul  li  .content {
+        color: #A5A5A5;
+    }
+}
+
+/* 底部标签 */
+.more   {
+    display: block;
+    margin-top: 64px;
+    height: 28px;
+    font-size: 20px;
+    color: #54BCB2;
+    text-align: center;
+}
+
+@media  screen  and (max-width:750px) {
+    .more   {
+        margin: 58px    auto    0;
+        height: 24px;
+        font-size: 16px;
+        color: #25A294;
+        border-bottom: 1px solid #F6F6F6;
+        padding-bottom: 20px;
+    }
+}
